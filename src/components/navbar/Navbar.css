@@ -1,0 +1,24 @@
+nav {
+	text-align: center;
+	font-size: 2.5em;
+	background-color: yellow;
+	color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav span:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+nav > img {
+	height: 150px;
+}
+
+nav > img:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}

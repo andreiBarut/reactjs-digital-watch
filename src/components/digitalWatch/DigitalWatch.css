@@ -1,0 +1,37 @@
+.watch-container {
+	width: 80vw;
+	height: 40vw;
+	border: 2px solid red;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-image: url("../../watch-container.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	/* background-color: black; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10vw;
+	color: red;
+	background-color: black;
+}
+
+/* .watch-container > span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 2px;
+	height: 280px;
+	color: red;
+	font-size: 4rem;
+} */
+
+.watch-container > img {
+	height: 400px;
+}
