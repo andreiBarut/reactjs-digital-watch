@@ -9,8 +9,6 @@ export default function DigitwalWacth() {
 	console.log(date);
 	return (
 		<div className="watch-container">
-			{/* <span>text</span> */}
-			{/* <img src={watchContainer} alt="watch container" /> */}
 			<span>{`${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`}</span>
 		</div>
 	);
