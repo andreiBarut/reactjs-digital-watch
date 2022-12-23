@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font-family: "VT323", monospace;
+	background-color: rgb(37, 5, 68);
 }
 
 code {

@@ -2,6 +2,7 @@
 import "./DigitalWatch.css";
 import { useState } from "react";
 export default function DigitwalWacth() {
+	// const [date, setDate] = useState(new Date());
 	const [date, setDate] = useState(new Date());
 	setInterval(() => {
 		setDate(new Date());
