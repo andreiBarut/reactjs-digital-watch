@@ -10,14 +10,19 @@ export default function TimeZones() {
 	React.useEffect(() => {
 		axios.get(baseURL).then((response) => {
 			setZones(response.data);
+			console.log(zones);
 		});
 	}, []);
+	//! I have to use ref to get the value from the input
+	// function getRef() {
+	// 	return
+	// }
 
 	if (!zones) return null;
 
 	return (
 		<div>
-			<input list="zones" name="zones" />
+			<input list="zones" name="zones" ref={getRef} />
 			<datalist id="zones">
 				{zones.zones.map((zone) => {
 					return <option value={zone.zoneName} key={zone.zoneName} />;
